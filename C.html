@@ -1,0 +1,426 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Upcoming programmers-C programming</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Up Coming <br> Programmers.. </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active ">
+              <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">ABOUT</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="contact.html">CONTACT</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                role="button" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                Programming Languages
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="C.html">C</a>
+                <a class="dropdown-item" href="c++.html">C++</a>
+                <a class="dropdown-item" href="python.html">PYTHON</a>
+                <a class="dropdown-item" href="comingsoon.html">JAVA</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="comingsoon.html">HTML</a>
+              <a class="dropdown-item" href="comingsoon.html">CSS</a>
+              <a class="dropdown-item" href="comingsoon.html">JAVA SCRIPT</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1"
+                aria-disabled="true">SHUBHAM ARMAN</a>
+            </li>
+          </ul>
+          <div class="container-fluid">
+            <form class="form-inline my-2 my-lg-0 mx-3">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>&nbsp;
+        <div class="mx-2 ">
+          <button type="button"   class="btn btn-danger" data-toggle="modal" data-target="#loginmodal">Login</button>
+            <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#signupmodal">sign-up</button>
+            
+        </div>
+      </form>
+      
+          </div>
+        </div>
+     
+    </nav>
+    <div id="loginmodal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+    
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Login to up coming programmers </h4>
+          </div>
+          <div class="modal-body">
+           <form>
+             <div class="row mb-3">
+               <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+               <div class="col-sm-10">
+                 <input type="email" class="form-control" id="inputEmail3">
+               </div>
+             </div>
+             <div class="row mb-3">
+               <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+               <div class="col-sm-10">
+                 <input type="password" class="form-control" id="inputPassword3">
+               </div>
+             </div>
+             
+               
+             </fieldset>
+             <div class="row mb-3">
+               <div class="col-sm-10 offset-sm-2">
+                 <div class="form-check">
+                   <input class="form-check-input" type="checkbox" id="gridCheck1">
+                   <label class="form-check-label" for="gridCheck1">
+                    i am ready to login
+                   </label>
+                 </div>
+               </div>
+             </div>
+             <button type="submit" class="btn btn-primary">Log In</button>
+           </form>
+          </div>
+          <div class="modal-footer">
+           
+            <button type="button" class="btn btn-default btn-danger" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+    
+      </div>
+    </div>
+    <div id="signupmodal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+    
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Sign up to Upcoming programmers</h4>
+          </div>
+          <div class="modal-body">
+           <form>
+             <div class="row mb-3">
+               <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+               <div class="col-sm-10">
+                 <input type="email" class="form-control" id="inputEmail3">
+               </div>
+             </div>
+             <div class="row mb-3">
+               <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+               <div class="col-sm-10">
+                 <input type="password" class="form-control" id="inputPassword3">
+               </div>
+             </div>
+             <div class="row mb-3">
+               <label for="inputPassword3" class="col-sm-2 col-form-label">Confirm Password</label>
+               <div class="col-sm-10">
+                 <input type="password" class="form-control" id="inputPassword3">
+               </div>
+             </div>
+             
+             <div class="row mb-3">
+               <div class="col-sm-10 offset-sm-2">
+                 <div class="form-check">
+                   <input class="form-check-input" type="checkbox" id="gridCheck1">
+                   <label class="form-check-label" for="gridCheck1">
+                     ready to sign up
+                   </label>
+                 </div>
+               </div>
+             </div>
+             <button type="submit" class="btn btn-primary">Sign in</button>
+           </form>
+      
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default  btn-danger" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+    
+      </div>
+    </div>
+    <br>
+    <main class="container mt-0 ">
+        <div class="p-4 p-md-5 mb-4 rounded bg-dark text-white">
+          <div class="col-md-6 px-0">
+            <h1 class="display-4 fst-italic text-success">Learn C programming ...</h1>
+            <p class="lead my-3">C language was developed in 1970 bell laboratories buy a system programer named Dennis Ritchie, Ken Thompson another system programer at bell laboratories adopted it from basic combined programming language BCPL and named it as B language first letter of BCPL</p>
+            <p class="lead mb-0"><a href="https://en.wikipedia.org/wiki/C_(programming_language)" class="text-primary fw-bold">for more details wikipedia link... click here</a></p>
+          </div>
+        </div>
+      
+        <div class="row mb-2">
+          <div class="col-md-6">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+              <div class="col p-4 d-flex flex-column position-static">
+                
+                <h3><strong class="d-inline-block mb-2 text-primary">Why to learn c programming</strong></h3>
+                <h3 ></h3><strong class="mb-0 bg-dark text-white"> C has a similar benefits</strong></h3>
+                
+                <div class="mb-1 text-muted">30 july 2022</div>
+                <p class="card-text mb-auto alert alert-success">1 C is a Middle-Level Language <br>2 Helps to understand the fundamentals of Computer Theories. <br>3 Fewer Libraries. <br>4 C is very fast in terms of execution time. <br>5 Embedded Programming</p>
+     
+              </div>
+              <div class="col-auto d-none d-lg-block">
+                <img class="bd-placeholder-img" width="200" height="300" src="why_c.png" alt="">
+      
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+              <div class="col p-4 d-flex flex-column position-static">
+                <h3><strong class="d-inline-block mb-2 text-success">Download my hand written notes..</strong></h3>
+                <h3 class="mb-0"> Notes</h3>
+                <div class="mb-1 text-muted">30 july 2022</div>
+                <p class="card-text mb-auto alert alert-success"> i have prepared a hand written notes during my II semester holidays . i have written the notes in my own language(presence of thought ) . i think you should have a look on each topic for better understanding  :) 
+              </div>
+              
+              <div class="col-auto d-none d-lg-block">
+                <img class="bd-placeholder-img" width="200" height="300" src="c.jpg" alt="">
+      
+              </div>
+              <h1 class="blog-post-title mb-1">DOWNLOAD LINK BELOW..</h1>
+              <p class="blog-post-meta text-white bg-dark">Download Hand written Notes ------->>>><a href="C PROGRAMMING NOTES.pdf" download="C programming Notes"> <button type="button" class="btn btn-success">C programming Notes</button>
+              </a></p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="row g-5">
+          <div class="col-md-8">
+            <h3 class="pb-4 mb-4 fst-italic border-bottom text-danger">
+              Lets start....
+            </h3>
+      
+            <article class="blog-post ">
+              <h2 class="blog-post-title mb-1 bg-dark text-white"> A C program is consist of tokens like..</h2>
+              <p class="blog-post-meta ">july 30, 2022 by <a href="index.html">upcoming programer</a></p>
+      
+              <p class="bg-dark text-white">Pre processor <br>
+                Function <br>
+                Variable <br>
+                Statement and expression <br>
+                Comments <br>
+                Etc... <br>
+                </p>
+                <h3><strong>Keywords</strong> </h3>
+              <hr>
+              <p>keywords are the reserved words in c programming with specific meaning  defined in the compiler or in other words we can say that keywords are predefined, reserved words used in programming that have special meanings to the compiler. Keywords are part of the syntax and they cannot be used as an identifier. 32 keywords are following</p>
+              <div class="table-responsive"><table summary="List of keywords used in C language" border="0"><caption>C Keywords</caption>
+                <tbody><tr><td><code>auto</code></td>
+                        <td><code>double</code></td>
+                        <td><code>int</code></td>
+                        <td><code>struct</code></td>
+                    </tr><tr><td><code>break</code></td>
+                        <td><code>else</code></td>
+                        <td><code>long</code></td>
+                        <td><code>switch</code></td>
+                    </tr><tr><td><code>case</code></td>
+                        <td><code>enum</code></td>
+                        <td><code>register</code></td>
+                        <td><code><tt>typedef</tt></code></td>
+                    </tr><tr><td><code>char</code></td>
+                        <td><code>extern</code></td>
+                        <td><code>return</code></td>
+                        <td><code>union</code></td>
+                    </tr><tr><td><code>continue</code></td>
+                        <td><code>for</code></td>
+                        <td><code>signed</code></td>
+                        <td><code>void</code></td>
+                    </tr><tr><td><code>do</code></td>
+                        <td><code>if</code></td>
+                        <td><code>static</code></td>
+                        <td><code>while</code></td>
+                    </tr><tr><td><code>default</code></td>
+                        <td><code>goto</code></td>
+                        <td><code>sizeof</code></td>
+                        <td><code>volatile</code></td>
+                    </tr><tr><td><code>const</code></td>
+                        <td><code>float</code></td>
+                        <td><code>short</code></td>
+                        <td><code>unsigned</code></td>
+                    </tr></tbody></table></div>
+              <blockquote class="blockquote">
+                <h3><strong>Identifiers</strong></h3>
+                
+              </blockquote>
+              <p> In c programming identifiers are the name to identify denote the variable,arrays ,structure, union ,function etc...</p>
+                <p>Shubham =× SHUBHAM</p>
+                <p>Because c language is a case sensitive language</p>
+              
+              <h3><strong>Note</strong></h3>
+              <p>A c program is made up of multiple tokens which include keywords identifier constant string literals symbols operator function recursion structure array union etc</p>
+              <h3><strong>Data type</strong></h3>
+              <ul>
+                <li>Basic Data Type= Floating-point, integer, double, character.</li>
+                <li>Derived Data Type= Union, structure, array, etc.</li>
+                <li>Enumerated Data Type= Enums</li>
+                <li>Void Data Type= Empty Value</li>
+                <li>Bool Type=True or False</li>
+              </ul>
+             <h3><strong>Program to find the size of data type </strong></h3>
+             <div class="alert alert-info" role="alert">
+                #include <stdio.h>
+                    int main(){ <br>
+                        int a;<br>
+                        float b;<br>
+                        char c;<br>
+                        double d;<br>
+                        
+                        // Size of Variables<br>
+                        printf("Size of int: %ld bytes \n", sizeof(a));<br>
+                        printf("Size of float: %ld bytes \n", sizeof(b));<br>
+                        printf("Size of char: %ld bytes \n", sizeof(c));<br>
+                        printf("Size of double: %ld bytes", sizeof(d));<br>
+                        <br>
+                        return 0;<br>
+                    }<br>
+              </div>
+                
+            <h3><strong>C operators</strong></h3>
+              <p>An operator is simply a symbol that is used to perform operations. There can be many types of operations like arithmetic, logical, bitwise, etc.</p>
+              <p>There are following types of operators to perform different types of operations in C language. <br>
+               1 Arithmetic Operators <br>
+               2  Relational Operators <br>
+               3  Logical Operators <br>
+               4 Bitwise Operators <br>
+               5 Ternary or Conditional Operators <br>
+               6 Assignment Operator <br>
+               7 Misc Operator <br>
+            </p>
+              <dl>
+
+                <dt>Arithmetic Operators</dt>
+                <dd>The arithmetic operators perform addition, subtraction, multiplication, division, exponentiation, and modulus operations.</dd>
+                <dt>Relational Operators</dt>
+                <dd>A relational operator is a programming language construct or operator that tests or defines some kind of relation between two entities. These include numerical equality (e.g., 5 = 5) and inequalities (e.g., 4 ≥ 3).</dd>
+                <dt>Logical Operators</dt>
+                <dd>A logical operator is a symbol or word used to connect two or more expressions such that the value of the compound expression produced depends only on that of the original expressions and on the meaning of the operator. Common logical operators include AND, OR, and NOT.</dd>
+                <dt>Bitwise Operators</dt>
+                <dd>The bitwise AND operator ( & ) compares each bit of the first operand to the corresponding bit of the second operand. If both bits are 1, the corresponding result bit is set to 1. Otherwise, the corresponding result bit is set to 0.</dd>
+                <dt>Ternary or Conditional Operators</dt>
+                <dd>The conditional (ternary) operator is the only JavaScript operator that takes three operands: a condition followed by a question mark ( ? ), then an expression to execute if the condition is truthy followed by a colon ( : ), and finally the expression to execute if the condition is falsy.</dd>
+                <dt>Assignment Operator</dt>
+                <dd>The assignment operator = assigns the value of its right-hand operand to a variable, a property, or an indexer element given by its left-hand operand. The result of an assignment expression is the value assigned to the left-hand operand</dd>
+                <dt>Misc Operator</dt>
+                <dd>misc operator is miscellaneous operator, which is conditional operator which has 3 operands,The first operand is always evaluated first. If nonzero, the second operand is evaluated, and that is the value of the result. Otherwise, the third operand is evaluated, and that is the value of the result</dd>
+              </dl>
+              
+            </article>
+            <nav class="blog-pagination" aria-label="Pagination">
+             by the  <a href="index.html">upcoming programer</a>
+                <a class="btn btn-outline-primary rounded-pill" href="#">Go TO Top</a>
+
+              <a class="btn btn-outline-secondary rounded-pill disabled">Newer</a>
+            </nav>
+      
+          </div>
+      
+          <div class="col-md-4">
+            <div class="position-sticky" style="top: 2rem;">
+              <div class="p-4 mb-3 bg-light rounded">
+                <h4 class="fst-italic">About</h4>
+                <p class="mb-0">For more topics you can download my hand written notes or you can learn through these reference links ..</p>
+              </div>
+      
+              <div class="p-4">
+                <h4 class="fst-italic">Archives</h4>
+                <ol class="list-unstyled mb-0">
+                  <li><a href="https://www.tutorialspoint.com/cprogramming/c_data_types.htm">C - Data Types</a></li>
+                  <li><a href="https://www.tutorialspoint.com/cprogramming/c_constants.htm">C - Constants and Literals</a></li>
+                  <li><a href="https://www.tutorialspoint.com/cprogramming/c_variables.htm">C - Variables</a></li>
+                  <li><a href="https://www.tutorialspoint.com/cprogramming/c_operators.htm">C - Operators</a></li>
+                  <li><a href="https://www.tutorialspoint.com/cprogramming/c_decision_making.htm">C - Decision Making</a></li>
+                  <li><a href="https://www.tutorialspoint.com/cprogramming/c_loops.htm">C - Loops</a></li>
+                  <li><a href="https://www.tutorialspoint.com/cprogramming/c_functions.htm">C - Functions</a></li>
+                  <li><a href="https://www.tutorialspoint.com/cprogramming/c_arrays.htm">C - Arrays</a></li>
+                  <li><a href="https://www.tutorialspoint.com/cprogramming/c_pointers.htm">C - Pointers</a></li>
+                  <li><a href="https://www.tutorialspoint.com/cprogramming/c_strings.htm">C - Strings</a></li>
+                  <li><a href="https://www.tutorialspoint.com/cprogramming/c_structures.htm">C - Structures</a></li>
+                  <li><a href="https://www.tutorialspoint.com/cprogramming/c_unions.htm">C - Unions</a></li>
+                  <li><a href="https://www.tutorialspoint.com/cprogramming/c_input_output.htm">C - Input and Output</a></li>
+                  <li><a href="https://www.tutorialspoint.com/cprogramming/c_file_io.htm">C - File I/O</a></li>
+                  <li><a href="https://www.tutorialspoint.com/cprogramming/c_recursion.htm">C - Recursion</a></li>
+                  <li><a href="https://www.tutorialspoint.com/cprogramming/c_memory_management.htm">C - Memory Management</a></li>
+                </ol>
+              </div>
+      
+              <div class="p-4">
+                <h4 class="fst-italic">You can contact me through</h4>
+                <ol class="list-unstyled">
+                    <li><a href="https://www.facebook.com/shubham.arman"><button type="button" class="btn btn-outline-danger">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+          <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"></path>
+        </svg>
+                        Facebook
+                      </button></a></li>
+                
+                  <li><a href="https://www.instagram.com/upcoming_programmers/"><button type="button" class="btn btn-outline-danger">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+      <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"></path>
+    </svg>
+                  Instagram
+                  </button></a></li>
+                  <li><a href="https://www.linkedin.com/in/shubham-arman-92a163167?originalSubdomain=in"><button type="button" class="btn btn-outline-danger">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+      <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"></path>
+    </svg>
+                    Linkedin
+                  </button></a></li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+      </main>
+      <div class="container  ">
+        <i class="fab fa-youtube "></i>
+        </div>
+        <div class="card text-center">
+          
+          <div class="card-body card-hover">
+            <h5 class="card-title"><a href="index.html">UP COMING PROGRAMERS</a></h5>
+            <p class="card-text">© 2022 - 2025 | Upcoming Programmers Private Limited. | All Rights Reserved with Copyright & TradeMarks </p>
+            <a href="#" class="btn btn-primary">Go To Top</a>
+          </div>
+          <div class="card-footer text-muted">
+            2 days ago
+          </div>
+        </div>
+        
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
